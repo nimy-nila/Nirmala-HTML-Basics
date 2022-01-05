@@ -2,22 +2,24 @@
 
     <html>
         <head> <!-- THIS IS AN EXAMPLE OF INTERNAL CASCADING-->
-            <style> body {background-color: powderblue;}
+            <!-- <style> body {background-color: powderblue;}
                     h5   {color: blue;}
                     p    {color: red;}
-            </style>
+            </style> -->
             <!--THIS IS AN EXAMPLE OF EXTERNAL CASCADING-->
-            <link rel="external cascading" href="css3.css">
+
+            <link rel="stylesheet" href="css3.css">
         </head>
 
           <BODY>
                 <div> <!--THIS IS AN EXAMPLE OF INLINE CASCADING-->                 
-                    <h1 style = color:rgb(130, 0, 17)>This is an example of INLINE CASCADING </h1>
+                    <h1 style = color:rgb(130,0,17)>This is an example of INLINE CASCADING </h1>
                     <p style = "color:lightsalmon; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> Lorem ipsum dolor sit amet.<br>font color and font style is changed </p>
                     <p style = "background-color: lightskyblue;"> Lorem ipsum dolor sit amet.<br>Background color is added. </p>
                     <h5 style="border:2px solid Violet;">Lorem ipsum dolor sit amet.<br> border is used.<br> font color is blue because of INTERNAL CASCADING</bs> </h5>
                     <h3 style="font-style: italic; color:red;">Lorem ipsum dolor sit amet.<br> font style is italic and color is red because of INLINE CASCADING </h3>
                     <h2 style="color:yellow">THIS IS AN EXAMPLE OF EXTERNAL CASCADING<br>Font color will be changed from yellow to pink</h2>
+                
                 </div>
             </BODY>
 </html>

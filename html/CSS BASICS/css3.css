@@ -1,3 +1,9 @@
 
-h2 {color: pink;}
-   
+body {
+    background-color: yellow;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
