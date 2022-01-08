@@ -3,7 +3,7 @@
     <head>
         <style>
                .block {
-            border: 1px solid #000;
+            border: 1px white;
             border-radius: 10px;
             padding: 50px;
         }
@@ -14,40 +14,56 @@
                  -ms-flex: 5000; /* IE 10 */
                  flex: 5000;
                 }
+                .flex-container > div {
+                    display: flex;
+                    justify-content: space-around;
+                    background-color: white;
+                    width: 1500px;
+                    margin: 300px 50px 50px 100px ;
+                    text-align: center;
+                    line-height: 20px;
+                    font-size: 20px;
+                    }
         </style>
     </head>
     <body>
-        <h2 style="text-align:center"> Perfect for your Business</h2>
-        <h4 style="text-align:center"> Jootza has amazing features that will help you easily track timesheets on any device to perfect project management, manage timesheets, send <br>accurate invoices, and save thousands each year</h4>
+
+    <br> <br>
+        <h2 style="text-align:center"> Perfect for your Business</h2><br>
+        <h4 style="text-align:center; color: gray;"> Jootza has amazing features that will help you easily track timesheets on any device to perfect project management, manage timesheets, send <br>accurate invoices, and save thousands each year</h4>
+       
+        <div class="flex-container">
         <div class="block">
 
             <div class="box1">
            
                 <img _ngcontent-c3="" alt="Service" height="60" src="https://www.jootza.com/assets/img/landing/icon1.png" width="60">
                 <h2>Durational</h2>
-                 <h4>Employees enter the duration <br> of tasks but not when it was<br> performed.</h4>
+                 <h4 style ="color: gray">Employees enter the duration <br> of tasks but not when it was<br> performed.</h4>
             </div>
 
             <div class="box2">
            
                  <img _ngcontent-c3="" alt="Service" height="60" src="https://www.jootza.com/assets/img/landing/icon2.png" width="60">
                  <h2>Automatic</h2>
-                 <h4>Users can retrieve logged tasks <br> view the duration, or the<br> start and stop times.</h4>
+                 <h4 style ="color: gray"> Users can retrieve logged tasks <br> view the duration, or the<br> start and stop times.</h4>
             </div>
 
              <div class="box3">
            
                  <img _ngcontent-c3="" alt="Service" height="60" src="https://www.jootza.com/assets/img/landing/icon3.png" width="60">
                  <h2>Exception-based</h2>
-                 <h4>Record standard working hours <br>except for approved time off or <br>LOA</h4>
+                 <h4 style ="color: gray"> Record standard working hours <br>except for approved time off or <br>LOA</h4>
              </div>
             <div class="box4">
            
                  <img _ngcontent-c3="" alt="Service" height="60" src="https://www.jootza.com/assets/img/landing/icon4.png" width="60">
                  <h2>24/7 Support</h2>
-                 <h4>Dedicated Support available<br> 24/7 to support your project<br> needs for invoicing, payroll etc..</h4>
+                 <h4 style ="color: gray"> Dedicated Support available<br> 24/7 to support your project<br> needs for invoicing, payroll etc..</h4>
             </div>
         </div>
+        </div>
     </body>
+
        
 </HTML>
